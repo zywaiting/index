@@ -161,8 +161,8 @@
         var result;
         var trs = "";
         $.ajax({
-            //url:"http://47.96.120.133:8011/api/joke",
-            url:"http://192.168.1.129:8011/api/joke",
+            url:"http://47.96.120.133:8011/api/joke",
+            //url:"http://192.168.1.129:8011/api/joke",
             jsonpCallback:"successCallback",
             dataType:'jsonp',
             jsonp:'callback',  //传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(默认为:callback)
