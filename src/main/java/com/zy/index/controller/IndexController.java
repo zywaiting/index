@@ -9,4 +9,9 @@ public class IndexController {
     public String toIndex(){
         return "index";
     }
+
+    @RequestMapping("/shop")
+    public String toShop(){
+        return "shop";
+    }
 }
